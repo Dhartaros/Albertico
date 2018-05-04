@@ -1,0 +1,84 @@
+@font-face {
+	font-family: 'Gotham Black';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../Gotham Black Regular.woff');
+}
+body {
+	color: #3C3C3C;
+}
+a {
+	font-family: 'Gotham Black', sans-serif;
+}
+.section {
+	width: 100%;
+	padding-top: 10em;
+}
+.azul {
+	background: linear-gradient(rgba(37,116,187), rgba(109,165,215));
+}
+.amarillo {
+	background: linear-gradient(rgba(255,227,104,1), rgba(254,209,9,1));
+}
+.naranja {
+	background: linear-gradient(rgba(255,159,76), rgba(245,130,32));
+}
+.morado {
+	background: linear-gradient(rgba(56,39,112,0.8), rgba(56,39,112,1));
+}
+.gris {
+	background-color: #3C3C3C;
+}
+.row {
+	background-color: white;
+}
+#inicio {
+	padding-top: 0;
+}
+.card-body img {
+	width: 100%;
+}
+textarea.form-control{
+		height:100px;
+}
+.navbar {
+	background-color: white;
+}
+.nav-blanco {
+	background-color: #fff !important;
+	transition: background-color 200ms linear;
+
+}
+.nav-morado {
+	background-color: rgba(56,39,112,1) !important;
+	transition: background-color 200ms linear;
+}
+.nav-amarillo {
+	background-color: rgba(254,209,9,1) !important;
+	transition: background-color 200ms linear;
+}
+.nav-naranja {
+	background-color: rgba(245,130,32) !important;
+	transition: background-color 200ms linear;
+}
+.nav-azul {
+	background-color: rgba(37,116,187) !important;
+	transition: background-color 200ms linear;
+}
+.row {
+	padding: 2em 0 2em 0;
+}
+#acerca .carousel {
+	padding-bottom: 4em !important;
+}
+#historia .carousel-inner .carousel-item .card .card-body img,
+#historia .carousel-inner .carousel-item .card .card-body p {
+	display: inline-block;
+}
+#historia .carousel-inner .carousel-item .card .card-body p {
+	float: left;
+	width: 40%;
+}
+#historia .carousel-inner .carousel-item .card .card-body img {
+	width: 40%;
+}
