@@ -3,15 +3,16 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
+	<title>Albertico Medina</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<nav class="navbar fixed-top navbar-expand-lg">
 		<a class="navbar-brand" href="#">ALBERTICO</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
+			<i class="navbar-toggler-icon fa fa-bars fa-2x"></i>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav ml-auto">
@@ -86,7 +87,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="carousel-item col-sm-	">
+						<div class="carousel-item col-sm-10">
 							<div class="card">
 								<div class="card-body">
 									<h5 class="card-title">Lorem Ipsum</h5>
@@ -146,47 +147,28 @@
 			</div>
 		</div>
 		<div id="redes" class="section naranja">
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="card">
-						<div class="card-body">
-							<img src="images/redes02.jpg" alt="" />
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="card">
-						<div class="card-body">
-							<img src="images/redes02.jpg" alt="" />
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="card">
-						<div class="card-body">
-							<img src="images/redes02.jpg" alt="" />
-						</div>
-					</div>
-				</div>
-			</div>
+			<a target="_blank" href="https://www.instagram.com/alberticomedina/"><i class="fab fa-instagram fa-5x" aria-hidden="true"></i></a>
+			<a target="_blank" href="https://www.facebook.com/Albertico-Medina-Serrano-205679690165260/" class="fa-facebook"><i class="fab fa-facebook-f fa-5x" aria-hidden="true"></i></a>
+			<!--
+			<div class='embedsocial-album' data-ref="43addf0e4d81f778b65a6f3bd26011b9a769bd4b"></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "js/ei.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialScript"));</script>-->
 		</div>
 		<div id="contacto" class="section azul">
 			<div class="row">
 				<div class="col-sm-2"></div>
 				<div class="col-sm-8">
 					<h1>DIME LO QUE OPINAS</h1>
-					<form class="form-horizontal" style="margin-left: auto;%">
+					<form class="form-horizontal" style="margin-left: auto;" method="post" action="php/sendmail.php">
 						<div class="form-group">
-							<label for="exampleInputName2">Nombre</label>
-							<input type="text" class="form-control" id="exampleInputName2" placeholder="Nombre">
+							<label for="name">Nombre</label>
+							<input type="text" class="form-control" id="name" name="name" placeholder="Nombre">
 						</div>
 						<div class="form-group">
-							<label for="exampleInputEmail2">Correo electrónico</label>
-							<input type="email" class="form-control" id="exampleInputEmail2" placeholder="correo@ejemplo.com">
+							<label for="_replyto">Correo electrónico</label>
+							<input type="email" class="form-control" id="_replyto" name="_replyto" placeholder="correo@ejemplo.com">
 						</div>
 						<div class="form-group ">
-							<label for="exampleInputText">Mensaje</label>
-						 <textarea	class="form-control"></textarea> 
+							<label for="message">Mensaje</label>
+						 <textarea id="message" name="message" class="form-control"></textarea> 
 						</div>
 						<button type="submit" class="btn btn-default">Enviar</button>
 					</form>
@@ -198,7 +180,7 @@
 		<br><br><br>
 	</footer>
 	<!-- Scripts -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script src="js/app.js"></script>
 </body>

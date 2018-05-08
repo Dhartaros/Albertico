@@ -10,37 +10,10 @@ body {
 a {
 	font-family: 'Gotham Black', sans-serif;
 }
-.section {
-	width: 100%;
-	padding-top: 10em;
-}
-.azul {
-	background: linear-gradient(rgba(37,116,187), rgba(109,165,215));
-}
-.amarillo {
-	background: linear-gradient(rgba(255,227,104,1), rgba(254,209,9,1));
-}
-.naranja {
-	background: linear-gradient(rgba(255,159,76), rgba(245,130,32));
-}
-.morado {
-	background: linear-gradient(rgba(56,39,112,0.8), rgba(56,39,112,1));
-}
-.gris {
-	background-color: #3C3C3C;
-}
-.row {
-	background-color: white;
-}
 #inicio {
 	padding-top: 0;
 }
-.card-body img {
-	width: 100%;
-}
-textarea.form-control{
-		height:100px;
-}
+/************** Navbar **************/
 .navbar {
 	background-color: white;
 }
@@ -65,9 +38,13 @@ textarea.form-control{
 	background-color: rgba(37,116,187) !important;
 	transition: background-color 200ms linear;
 }
-.row {
-	padding: 2em 0 2em 0;
+.blanco {
+	color: #FFF;
 }
+.negro {
+	color: #000;
+}
+/************** Acerca **************/
 #acerca .carousel {
 	padding-bottom: 4em !important;
 }
@@ -81,4 +58,63 @@ textarea.form-control{
 }
 #historia .carousel-inner .carousel-item .card .card-body img {
 	width: 40%;
+}
+/************** Logros **************/
+.card-body img {
+	width: 100%;
+}
+/************** Redes **************/
+.fab {
+	text-decoration: none;
+    position: relative;
+	color: white;
+	width: 2em;
+	height: 2em;
+	border-radius: 100%;
+	border: solid 2px white;
+	line-height: 2em;
+	text-align: center;
+    white-space: nowrap;
+}
+a.fa-facebook::before {
+	content: none;
+}
+a.fa-instagram {
+	margin-right: 4em;
+}
+a.fa-facebook {
+	margin-left: 4em;
+}
+#redes {
+	text-align: center;
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+/************* Contacto *************/
+textarea.form-control{
+		height:100px;
+}
+/************* Secciones *************/
+.amarillo {
+	background: linear-gradient(rgba(255,227,104,1), rgba(254,209,9,1));
+}
+.azul {
+	background: linear-gradient(rgba(37,116,187), rgba(109,165,215));
+}
+.gris {
+	background-color: #3C3C3C;
+}
+.morado {
+	background: linear-gradient(rgba(56,39,112,0.8), rgba(56,39,112,1));
+}
+.naranja {
+	background: linear-gradient(rgba(255,159,76), rgba(245,130,32));
+}
+.row {
+	background-color: white;
+	padding: 2em 0 2em 0;
+}
+.section {
+	width: 100%;
+	padding-top: 10em;
 }
