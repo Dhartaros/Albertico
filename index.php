@@ -10,149 +10,171 @@
 </head>
 <body>
 	<nav class="navbar fixed-top navbar-expand-lg">
-		<a class="navbar-brand" href="#">ALBERTICO</a>
+		<a class="navbar-brand" href="#"><img src="images/logo.png" /></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<i class="navbar-toggler-icon fa fa-bars fa-2x"></i>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
-					<a class="nav-link" href="#acerca" style="color: rgba(56,39,112,1);">Sobre mí</a>
+					<a class="nav-link" href="#acerca">Sobre mí</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#logros" style="color: rgba(254,209,9,1);">Logros</a>
+					<a class="nav-link" href="#aportaciones">Aportaciones</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#redes" style="color: rgba(245,130,32);">Redes sociales</a>
+					<a class="nav-link" href="#equipo">Equipo</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link disabled" href="#contacto" style="color: rgba(37,116,187);">Contacto</a>
+					<a class="nav-link" href="#contacto">Contacto</a>
 				</li>
 			</ul>
 		</div>
 	</nav>
 	<div id="main">
-		<div id="inicio" class="section carousel">
-			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-				<ol class="carousel-indicators">
-					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-				</ol>
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img class="d-block w-100" src="images/carousel01.jpg" alt="First slide">
-					</div>
-					<div class="carousel-item">
-						<img class="d-block w-100" src="images/carousel01.jpg" alt="Second slide">
-					</div>
-					<div class="carousel-item">
-						<img class="d-block w-100" src="images/carousel01.jpg" alt="Third slide">
-					</div>
+		<div id="inicio" class="section">
+			<video autoplay loop>
+				<source src="videos/intercampana.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div id="acerca" class="section gris">
+			<h1 class="titulo">ACERCA DE MÍ</h1>
+			<div class="row">
+				<div class="col-sm-4">
+					<img id="perfil" src="images/albertico.jpg" alt="Imagen del candidato Albertico Medina sonriendo">
 				</div>
-				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
+				<div class="col-sm-8">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce hendrerit dapibus nibh in interdum. Sed gravida maximus leo, quis dapibus orci pulvinar eu. Suspendisse potenti. Nam vestibulum turpis non ipsum commodo, quis cursus tortor condimentum. Donec dui est, interdum viverra porta vitae, tincidunt vel sapien. Aliquam ullamcorper magna ut faucibus tempus. Nam ac convallis lacus. Sed ut nulla id leo accumsan auctor posuere non turpis. In vitae rutrum ante. Suspendisse mi neque, mollis a dolor vel, finibus tincidunt enim.
+					</p>
+					<p>
+						Nam sed tempus diam. Nunc gravida mi fermentum lorem volutpat auctor. Vestibulum tempus fringilla erat sit amet commodo. Sed ultricies urna sapien, elementum vestibulum nibh faucibus nec. Donec quis libero non ipsum blandit hendrerit. Donec luctus tellus nec eleifend commodo. Donec eu est consectetur mauris ultricies pharetra. Etiam efficitur, mauris vel convallis pulvinar, est libero pharetra augue, at vehicula erat quam eget leo. Quisque efficitur ornare urna, eget tincidunt justo eleifend vel. Nulla rhoncus arcu sit amet odio commodo tincidunt. Praesent facilisis egestas efficitur. Nam id lobortis dolor. Donec congue tincidunt mauris. Morbi sodales gravida eleifend. Aenean tempor ipsum at viverra sodales.
+					</p>
+				</div>
 			</div>
 		</div>
-		<div id="acerca" class="section morado">
+		<div id="aportaciones" class="section gris">
+			<h1 class="titulo">MIS APORTACIONES</h1>
+			<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1f4ZdZmKn1gfJPWCfUtPifbx5m8nsU4lxyn3eO1hq3Ns&font=Default&lang=es&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+		</div>
+		<div id="equipo" class="section gris">
+			<h1 class="titulo">MI EQUIPO</h1>
 			<div class="carousel">
-				<div id="historia" class="carousel slide" data-ride="carousel">
+				<div id="fotos" class="carousel slide" data-ride="carousel">
 					<ol class="carousel-indicators">
-						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+						<li data-target="#fotos" data-slide-to="0" class="active"></li>
+						<li data-target="#fotos" data-slide-to="1"></li>
+						<li data-target="#fotos" data-slide-to="2"></li>
+						<li data-target="#fotos" data-slide-to="3"></li>
+						<li data-target="#fotos" data-slide-to="4"></li>
+						<li data-target="#fotos" data-slide-to="5"></li>
+						<li data-target="#fotos" data-slide-to="6"></li>
 					</ol>
 					<div class="carousel-inner">
-						<div class="carousel-item col-sm-10 active">
-							<div class="card">
-								<div class="card-body">
-									<h5 class="card-title">Lorem Ipsum</h5>
-									<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam commodo facilisis vehicula. Vestibulum ut rhoncus risus, viverra dapibus tellus. Praesent pellentesque velit nulla, nec molestie lectus faucibus quis. Donec sit amet scelerisque libero. Fusce blandit mi quis vulputate imperdiet. Etiam fringilla mi rhoncus elementum dapibus. Phasellus consectetur tempus tellus. Nulla imperdiet id dolor eget mollis. Vestibulum laoreet nunc dui. Nulla sed felis eget dui ullamcorper lacinia. Phasellus ac odio nulla. Pellentesque facilisis mauris et mi posuere pellentesque. Duis ut nisi sit amet massa fringilla tincidunt. Quisque eget mi ac velit condimentum scelerisque vel sed sapien.</p>
-									<img src="images/redes02.jpg" alt="" />
+						<div class="carousel-item active">
+							<div class="row">
+								<div class="col-sm-4 active">
+									<img src="images/equipo01.jpg" />
+								</div>
+								<div class="col-sm-4">
+									<img src="images/equipo02.jpg" />
+								</div>
+								<div class="col-sm-4">
+									<img src="images/equipo03.jpg" />
 								</div>
 							</div>
 						</div>
-						<div class="carousel-item col-sm-10">
-							<div class="card">
-								<div class="card-body">
-									<h5 class="card-title">Lorem Ipsum</h5>
-									<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam commodo facilisis vehicula. Vestibulum ut rhoncus risus, viverra dapibus tellus. Praesent pellentesque velit nulla, nec molestie lectus faucibus quis. Donec sit amet scelerisque libero. Fusce blandit mi quis vulputate imperdiet. Etiam fringilla mi rhoncus elementum dapibus. Phasellus consectetur tempus tellus. Nulla imperdiet id dolor eget mollis. Vestibulum laoreet nunc dui. Nulla sed felis eget dui ullamcorper lacinia. Phasellus ac odio nulla. Pellentesque facilisis mauris et mi posuere pellentesque. Duis ut nisi sit amet massa fringilla tincidunt. Quisque eget mi ac velit condimentum scelerisque vel sed sapien.</p>
-									<img src="images/redes02.jpg" alt="" />
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col-sm-4 active">
+									<img src="images/equipo04.jpg" />
+								</div>
+								<div class="col-sm-4">
+									<img src="images/equipo05.jpg" />
+								</div>
+								<div class="col-sm-4">
+									<img src="images/equipo06.jpg" />
 								</div>
 							</div>
 						</div>
-						<div class="carousel-item col-sm-10">
-							<div class="card">
-								<div class="card-body">
-									<h5 class="card-title">Lorem Ipsum</h5>
-									<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam commodo facilisis vehicula. Vestibulum ut rhoncus risus, viverra dapibus tellus. Praesent pellentesque velit nulla, nec molestie lectus faucibus quis. Donec sit amet scelerisque libero. Fusce blandit mi quis vulputate imperdiet. Etiam fringilla mi rhoncus elementum dapibus. Phasellus consectetur tempus tellus. Nulla imperdiet id dolor eget mollis. Vestibulum laoreet nunc dui. Nulla sed felis eget dui ullamcorper lacinia. Phasellus ac odio nulla. Pellentesque facilisis mauris et mi posuere pellentesque. Duis ut nisi sit amet massa fringilla tincidunt. Quisque eget mi ac velit condimentum scelerisque vel sed sapien.</p>
-									<img src="images/redes02.jpg" alt="" />
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col-sm-4 active">
+									<img src="images/equipo07.jpg" />
 								</div>
+								<div class="col-sm-4">
+									<img src="images/equipo08.jpg" />
+								</div>
+								<div class="col-sm-4">
+									<img src="images/equipo09.jpg" />
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col-sm-4 active">
+									<img src="images/equipo10.jpg" />
+								</div>
+								<div class="col-sm-4">
+									<img src="images/equipo11.jpg" />
+								</div>
+								<div class="col-sm-4">
+									<img src="images/equipo12.jpg" />
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col-sm-4 active">
+									<img src="images/equipo13.jpg" />
+								</div>
+								<div class="col-sm-4">
+									<img src="images/equipo14.jpg" />
+								</div>
+								<div class="col-sm-4">
+									<img src="images/equipo15.jpg" />
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col-sm-4 active">
+									<img src="images/equipo16.jpg" />
+								</div>
+								<div class="col-sm-4">
+									<img src="images/equipo17.jpg" />
+								</div>
+								<div class="col-sm-4">
+									<img src="images/equipo18.jpg" />
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col-sm-4 active"></div>
+								<div class="col-sm-4">
+									<img src="images/equipo19.jpg" />
+								</div>
+								<div class="col-sm-4"></div>
 							</div>
 						</div>
 					</div>
-					<a class="carousel-control-next" href="#historia" role="button" data-slide="next">
+					<a class="carousel-control-prev" href="#fotos" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+					<a class="carousel-control-next" href="#fotos" role="button" data-slide="next">
 						<span class="carousel-control-next-icon" aria-hidden="true"></span>
 						<span class="sr-only">Next</span>
 					</a>
 				</div>
 			</div>
 		</div>
-		<div id="logros" class="section amarillo">
-			<div class="row">
-				<div class="col-sm-1"></div>
-				<div class="col-sm-5">
-					<div class="card">
-						<div class="card-body">
-							<h5 class="card-title">Special title treatment</h5>
-							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-5">
-					<div class="card">
-						<div class="card-body">
-							<h5 class="card-title">Special title treatment</h5>
-							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-1"></div>
+		<div id="contacto" class="section gris">
+			<div id="redes">
+				<a target="_blank" href="https://www.instagram.com/alberticomedina/"><i class="fab fa-instagram fa-5x" aria-hidden="true"></i></a>
+				<a target="_blank" href="https://www.facebook.com/Albertico-Medina-Serrano-205679690165260/" class="fa-facebook"><i class="fab fa-facebook-f fa-5x" aria-hidden="true"></i></a>
 			</div>
-			<div class="row">
-				<div class="col-sm-1"></div>
-				<div class="col-sm-5">
-					<div class="card">
-						<div class="card-body">
-							<h5 class="card-title">Special title treatment</h5>
-							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-5">
-					<div class="card">
-						<div class="card-body">
-							<h5 class="card-title">Special title treatment</h5>
-							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-1"></div>
-			</div>
-		</div>
-		<div id="redes" class="section naranja">
-			<a target="_blank" href="https://www.instagram.com/alberticomedina/"><i class="fab fa-instagram fa-5x" aria-hidden="true"></i></a>
-			<a target="_blank" href="https://www.facebook.com/Albertico-Medina-Serrano-205679690165260/" class="fa-facebook"><i class="fab fa-facebook-f fa-5x" aria-hidden="true"></i></a>
-			<!--
-			<div class='embedsocial-album' data-ref="43addf0e4d81f778b65a6f3bd26011b9a769bd4b"></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "js/ei.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialScript"));</script>-->
-		</div>
-		<div id="contacto" class="section azul">
 			<div class="row">
 				<div class="col-sm-2"></div>
 				<div class="col-sm-8">

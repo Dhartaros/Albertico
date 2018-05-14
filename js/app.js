@@ -1,3 +1,4 @@
+/*
 var seccion1 = 0,
 	seccion2 = 0,
 	seccion3 = 0,
@@ -5,7 +6,7 @@ var seccion1 = 0,
 
 seccion1 = $('#acerca').offset().top - 2;
 seccion2 = $('#logros').offset().top - 2;
-seccion3 = $('#redes').offset().top - 2;
+seccion3 = $('#equipo').offset().top - 2;
 seccion4 = $('#contacto').offset().top - 2;
 
 $(document).scroll(function() {
@@ -113,28 +114,26 @@ $(document).scroll(function() {
 		$('.navbar-toggler-icon').toggleClass('blanco');
 	}
 });
-
+*/
 $(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+	// Add smooth scrolling to all links
+	$("a").on('click', function(event) {
+		// Make sure this.hash has a value before overriding default behavior
+		if (this.hash !== "") {
+			// Prevent default anchor click behavior
+			event.preventDefault();
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
+			// Store hash
+			var hash = this.hash;
 
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
+			// Using jQuery's animate() method to add smooth page scroll
+			// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+			$('html, body').animate({
+				scrollTop: $(hash).offset().top
+			}, 800, function(){
+				// Add hash (#) to URL when done scrolling (default click behavior)
+				window.location.hash = hash;
+			});
+		} // End if
+	});
 });
