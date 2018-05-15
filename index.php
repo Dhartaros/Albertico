@@ -33,7 +33,7 @@
 	</nav>
 	<div id="main">
 		<div id="inicio" class="section">
-			<video autoplay loop>
+			<video autoplay muted loop>
 				<source src="videos/intercampana.mp4" type="video/mp4">
 			</video>
 		</div>
@@ -44,11 +44,22 @@
 					<img id="perfil" src="images/albertico.jpg" alt="Imagen del candidato Albertico Medina sonriendo">
 				</div>
 				<div class="col-sm-8">
+					<h4>MISIÓN</h4>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce hendrerit dapibus nibh in interdum. Sed gravida maximus leo, quis dapibus orci pulvinar eu. Suspendisse potenti. Nam vestibulum turpis non ipsum commodo, quis cursus tortor condimentum. Donec dui est, interdum viverra porta vitae, tincidunt vel sapien. Aliquam ullamcorper magna ut faucibus tempus. Nam ac convallis lacus. Sed ut nulla id leo accumsan auctor posuere non turpis. In vitae rutrum ante. Suspendisse mi neque, mollis a dolor vel, finibus tincidunt enim.
+						Contribuir al desarrollo de una sociedad participativa, justa, solidaria, democrática y pacífica, con desarrollo familiar e integral, equidad e igualdad de oportunidades para todos, sin exclusiones ni discriminaciones.
+					</p>
+					<h4>VISIÓN</h4>
+					<p>
+						Somos un gran equipo de jóvenes, mujeres y hombres organizados en el proyecto político Amigos de Albertico, inspirados en las aspiraciones y los sueños de una mejor vida de todos los badiraguatenses, partiendo del ejemplo de las mujeres y hombres que con sus acciones, hechos y obras, han conservado el municipio de Badiraguato a lo largo de nuestra historia.
 					</p>
 					<p>
-						Nam sed tempus diam. Nunc gravida mi fermentum lorem volutpat auctor. Vestibulum tempus fringilla erat sit amet commodo. Sed ultricies urna sapien, elementum vestibulum nibh faucibus nec. Donec quis libero non ipsum blandit hendrerit. Donec luctus tellus nec eleifend commodo. Donec eu est consectetur mauris ultricies pharetra. Etiam efficitur, mauris vel convallis pulvinar, est libero pharetra augue, at vehicula erat quam eget leo. Quisque efficitur ornare urna, eget tincidunt justo eleifend vel. Nulla rhoncus arcu sit amet odio commodo tincidunt. Praesent facilisis egestas efficitur. Nam id lobortis dolor. Donec congue tincidunt mauris. Morbi sodales gravida eleifend. Aenean tempor ipsum at viverra sodales.
+						Proponemos a los badiraguatenses nuestros principios, programas y proyectos para construir una mejor vida para todos. Aspiramos llegar el gobierno municipal a través de elecciones limpias y transparentes, convenciendo a la mayoría de los badiraguatenses de la certeza y viabilidad de nuestros planteamientos para el progreso de nuestro municipio.
+					</p>
+					<p>
+						Estamos profundamente comprometidos con la democracia interna, el respeto a la libertad política de quienes integramos el proyecto político Amigos de Albertico. La tolerancia, el diálogo y el debate respetuoso de las ideas y propuestas, sin imposiciones verticales, ni descalificaciones personales, son esenciales en la conducta política de nuestros amigos y simpatizantes.
+					</p>
+					<p>
+						Promovemos la participación ciudadana, siempre en igualdad, de mujeres, hombre y jóvenes, y de todos los amigos y simpatizantes de esta corriente opinión..
 					</p>
 				</div>
 			</div>
@@ -202,8 +213,8 @@
 		<br><br><br>
 	</footer>
 	<!-- Scripts -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<script src="js/app.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" defer></script>
+	<script src="js/app.js" defer></script>
 </body>
 </html>
